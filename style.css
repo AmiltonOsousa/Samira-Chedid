@@ -1,0 +1,1326 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+}
+
+body{
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+   
+  #samira:target {
+    scroll-margin-top: 180px;  
+  }
+
+  #conteudo:target{
+    scroll-margin-top: -15px;  
+  }
+
+  #redesocialT:target{
+    scroll-margin-top: -15px;  
+  }
+
+
+header{
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    
+    background: rgb(182,27,60);
+    background: linear-gradient(90deg, rgba(182,27,60,1) 6%, rgba(197,37,77,1) 20%, rgba(177,34,72,1) 38%, rgba(162,31,68,1) 52%, rgba(142,24,58,1) 61%, rgba(118,16,46,1) 72%);
+    padding: 10px;
+    padding-left: 10%;
+}
+
+#headLogo{
+    height: 70px;
+}
+
+
+
+header > nav{
+    display: flex;
+    gap: 30px;
+
+    position: absolute;
+    right: 10%;
+    font-size: 22px;
+}
+
+header a:link, a:visited, a:active{
+    color: #F62D60;
+}
+
+header a:hover{
+    transform: scale(1.3);
+    color: #520019;
+    font-weight: bold;
+}
+
+main{
+    background-color: #7D2F43;
+}
+
+.sobreMim{
+    color: #D9D9D9;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#samira{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 600px 0 1%;
+}
+
+#titulo{
+    color: #FF1C56;
+    font-size: 70px;
+    padding-bottom: 15px;
+    text-align: center; 
+}
+
+#mainP1{
+    border-top: solid #C82750;
+    padding-top: 50px;
+    width: 350px;
+    text-align: center;
+    word-break: break-word;
+}
+
+
+#fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    width: 480px;
+    position: absolute;
+
+    background: linear-gradient(#F4454D, #D12E5C, #76102E);
+    border-radius: 50%;  
+    margin: 60px 50px 0 50px;
+}
+
+#fotoFundo{
+    position: static;
+    margin-left: 10px;
+    height: 420px;
+}
+
+#sobreMim2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 130px;
+    margin-right: 4%;
+}
+
+#mainP2{
+    width: 370px;
+    border-left: solid #FF1C56;
+    padding-left: 20px;
+}
+
+#mainP3{
+    width: 370px;
+    border-left: solid #FF1C56;
+    padding-left: 20px;
+}
+
+#coluna1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#colunaTrabalho{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+#main2{
+    display: flex;
+    justify-content: center;
+
+    color: #f3275a;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 88px;
+}
+
+.logos{
+    height: 64px;
+}
+
+#salonLine{
+    height: 95px;
+}
+
+#trabalhos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 80px;
+
+    background: rgb(153,9,39);
+    background: linear-gradient(to top, rgba(153,9,39,1) 10%, rgba(154,23,57,1) 22%, rgba(125,47,67,1) 70%);
+}
+
+
+
+#conteudo{
+    background: rgb(112,42,60);
+    background: linear-gradient(180deg, rgba(112,42,60,1) 17%, rgba(106,24,45,1) 36%, rgba(98,1,26,1) 79%, rgba(98,1,26,1) 93%);
+}
+
+
+
+.tituloChave{
+    color: #f3275a;
+    font-size: 90px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 150px;
+}
+
+
+#alinharCards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1.5% 50px 1.5%;
+    gap: 1%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.temas{
+    padding-top: 100px;
+    color: #C82750;
+    text-align: center;
+    font-size: 40px;
+
+    padding-bottom: 40px;
+}
+
+.alinharElemento{
+    display: flex;
+    justify-content: center;
+    transition: box-shadow .8s;
+}
+
+.alinharElemento:hover{
+    box-shadow: rgba(189, 3, 80, 0.466) 0px 54px 55px, rgba(189, 3, 80, 0.466) 0px -12px 30px, rgba(189, 3, 80, 0.466) 0px 4px 6px, rgba(189, 3, 80, 0.466) 0px 12px 13px, rgba(189, 3, 80, 0.466) 0px -3px 5px;
+}
+
+#cardP1{
+    padding: 9% 10px 10px;
+    font-size: 19px;
+    text-align: center;
+    width: 210px;
+    color: #D9D9D9;
+    background: rgb(255,0,65);
+    background: linear-gradient(180deg, rgba(255,0,65,1) 23%, rgba(210,8,60,1) 42%, rgba(143,21,52,1) 73%); 
+
+}
+
+#cardP2{
+    padding: 13% 20px 20px;
+    font-size: 19px;
+    text-align: center;
+    width: 210px;
+    color: #D9D9D9;
+    background: rgb(255,0,65);
+    background: linear-gradient(180deg, rgba(255,0,65,1) 23%, rgba(210,8,60,1) 42%, rgba(143,21,52,1) 73%); 
+}
+
+#cardP3{
+    padding: 10% 20px 20px;
+    font-size: 19px;
+    text-align: center;
+    width: 210px;
+    color: #D9D9D9;
+    background: rgb(255,0,65);
+    background: linear-gradient(180deg, rgba(255,0,65,1) 23%, rgba(210,8,60,1) 42%, rgba(143,21,52,1) 73%); 
+}
+
+.cardFotos{
+    height: 320px;
+}
+
+#redeSocial{
+    background: rgb(98,1,26);
+    background: linear-gradient(180deg, rgba(98,1,26,1) 15%, rgba(159,17,59,1) 37%, rgba(159,26,65,1) 58%, rgba(157,54,84,1) 79%);
+
+}
+
+#redesocialT{
+    border-bottom: solid;
+}
+
+
+#redeT1{
+    padding-top: 130px;
+    font-size: 90px;
+    text-align: center;
+}
+
+#opcaoContrato{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+#redePublico{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    height: 60%;
+    width: 70%;
+    background-color: #c20e3b;
+    
+    transition: box-shadow .8s;
+}
+
+#redePublico:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+ul{
+    color: #660c0c;
+}
+
+#colunaContrato{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 60px;
+    justify-content: center;
+    gap: 100px;
+    font-size: 23px;
+
+    transition: box-shadow .8s;
+}
+
+#contratoP{
+    padding: 90px 20px 20px 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #490214;
+}
+
+#contratoT{
+    color: #64031A;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+#parteDireita{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#lados{
+    display: flex;
+}
+
+#alinharBlocos{
+    display: flex;
+    padding: 0 5% 0 5%;
+    gap: 30px;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 1.2%;
+}
+
+#vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blocoFoto{
+    padding-left: 80px;
+    background: rgb(255,0,65);
+    background: linear-gradient(180deg, rgba(255,0,65,1) 41%, rgba(173,0,44,1) 61%, rgba(143,21,52,1) 86%);
+    height: 500px;
+    width: 350px;
+}
+
+.infoRedes{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    width: 250px;
+    height: 100px;
+    background: rgb(255,0,65);
+    background: linear-gradient(360deg, rgba(255,0,65,1) 41%, rgba(173,0,44,1) 61%, rgba(143,21,52,1) 86%);
+    gap: 30px;
+
+    transition: box-shadow .8s;
+}
+
+.infoRedes:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.blocoIcon{
+    height: 60px;
+}
+
+.pRedes{
+    color: #64031A;
+    font-weight: bold;
+    font-size: 250%;
+    padding-right: 2%;
+
+    display: flex;
+    align-items: center;
+}
+
+#alinharBlocos2{
+    display: flex;
+    gap: 50px 135px;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+#graf1{
+    height: 375px;
+    width: 375px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+    background-color: #c20e3b;
+    transition: box-shadow .8s;
+}
+
+#grafico{
+    height: 45%;
+    width: 45%;
+}
+
+#graf1:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#graf1T{
+    font-size: 34px;
+    padding: 30px;
+    text-align: center;
+    padding-top: 30px;
+    color: #64031A;
+}
+
+#graf1 ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 135px;
+    font-size: 23px;
+}
+
+#graf2{
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+
+    background-color: #c20e3b;
+    transition: box-shadow .8s;
+}
+
+#graf2:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#grafico1{
+    height: 320px;
+    margin-top: 35px;
+}
+
+#graf3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60%;
+    height: 80%;
+    flex-wrap: wrap;
+
+    background-color: #c20e3b;
+    transition: box-shadow .8s;
+    border-top: solid #b90d4f;
+
+}
+
+#graf3:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#publico{
+    color: #f3275a;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 1%;
+}
+
+#teste{
+    height: 300px;
+    background-color: tomato;
+}
+
+#fim{
+    background-color: #9D3654;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#cartao{
+    width: 30%;
+    height: 60%;
+    right: 28px;
+    margin-top: 50px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#fimT1{
+    color: #FF1C56;
+    font-size: 60px;
+    padding: 100px 100px 10px 100px;
+    padding-top: 50px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#fimT2{
+    color: #FF1C56;
+    font-size: 45px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.alinharIcon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#alinharCartao{
+    display: flex;
+    gap: 1%;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icons1{
+    height: 50px;
+}
+
+.textoFim{
+    color: #D9D9D9;
+    font-size: 37px;
+    width: max-content;
+}
+
+#infos{
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#navFim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    padding: 14px 40px 14px 40px; 
+}
+
+.navIcons{
+    height: 100px;
+}
+
+#yt{
+    height: 90px;
+}
+
+#navFim > a:hover{
+    transition: .5s;
+    transform: scale(1.3);
+}
+
+footer{
+    padding: 10px;
+    background: rgb(182,27,60);
+    background: linear-gradient(90deg, rgba(182,27,60,1) 6%, rgba(197,37,77,1) 20%, rgba(177,34,72,1) 38%, rgba(162,31,68,1) 52%, rgba(142,24,58,1) 61%, rgba(118,16,46,1) 72%);
+}
+
+
+
+@media screen and (max-width: 1587px) { 
+    #alinharCards{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cardFotos{
+        height: 500px;
+    }
+
+    #cardP1, #cardP2, #cardP3{
+        width: 450px;
+        font-size: 2em;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+
+    .temas{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1415px){
+    #coluna1{
+        flex-direction: column;
+    }
+
+    #samira{
+        display: block;
+        padding: 0;
+    }
+
+    #titulo{
+        justify-content: center;
+        padding-bottom: 95px;
+    }
+
+    #mainP1{
+        margin: 440px 10% 0 10%;
+        font-size: 25px;
+        word-wrap: break-word;
+        border: none;
+        text-align: center;
+        width: auto;
+    }
+
+    #sobreMim{
+        margin-bottom: 450px;
+    }
+
+    #sobreMim2{
+        margin-right: 0;
+        padding-top: 80px;
+    }
+
+    #mainP2{
+        width: 370px;
+        border-left: none;
+        border-top: solid #FF1C56;
+        padding-top: 20px;
+        font-size: 22px;
+    }
+
+    #mainP3{
+        width: 370px;
+        border-left: none;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 22px;
+    }
+
+    #fundo{
+        margin-bottom: 480px;
+    }
+    
+}
+
+@media screen and (max-width: 1170px){
+    
+    #mainP1{
+        font-size: 22px;
+    }
+
+    #mainP2{
+        font-size: 20px;
+    }
+
+    #mainP3{
+        font-size: 20px;
+    }
+
+    #fundo{
+        margin-bottom: 380px;
+        height: 430px;
+        width: 430px;
+    }
+
+    #fotoFundo{
+        height: 360px;
+    }
+
+    .cardFotos{
+        height: 380px;
+    }
+
+    #cardP1, #cardP2, #cardP3{
+        width: 400px;
+        font-size: 25px;
+    }
+
+    #cardP1{
+        padding-top: 85px;
+    }
+
+    #cardP2{
+        padding-top: 115px
+    }
+
+    #cardP3{
+        padding-top: 95px;
+    }
+
+    .textoFim{
+        font-size: 25px;
+    }
+
+    #fimT1{
+        font-size: 55px;
+    }
+
+    #fimT2{
+        font-size: 50px;
+    }
+
+    #alinharCartao{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cartao{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    
+    #graf2{
+        height: 300px;
+        width: 300px;
+    }
+
+    #grafico1{
+        height: 250px;
+    }
+
+    #graf1{
+        height: 280px;
+        width: 280px;
+    }
+
+    #graf1T{
+        font-size: 20px;
+    }
+
+    #graf1 > ul{
+        font-size: 17px;
+        padding-left: 100px;
+    }
+
+    #grafIdade{
+        height: 300px;
+    }
+
+    #fimT1{
+        font-size: 47px;
+    }
+
+    #fimT2{
+        font-size: 40px;
+    }
+
+    #mainP1, #mainP2, #mainP3{
+        font-size: 19px;
+    }
+
+    .infoRedes{
+        width: 220px;
+    }
+
+    .pRedes{
+        font-size: 36px;
+        padding-right: 25px;
+    }
+
+    #alinharBlocos2{
+        gap: 110px;
+    }
+
+    .temas{
+        font-size: 50px;
+    }
+
+    #textoFim{
+        font-size: 10px;
+    }
+
+    .icons1{
+        height: 35px;
+    }
+
+    #infos{
+        padding-top: 10%;
+    }
+
+    #contratoT{
+        font-size: 35px;
+    }
+
+    #contratoP{
+        padding-top: 50px;
+        font-size: 23px;
+    }
+
+    .navIcons{
+        height: 80px;
+    }
+
+    #yt{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    .cardFotos{
+        height: 300px;
+    }
+
+    #cardP1, #cardP2, #cardP3{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    #cardP1{
+        padding: 65px 20px 0 20px;
+    }
+
+    #cardP2{
+        padding: 90px 20px 0 20px;
+    }
+
+    #cardP3{
+        padding: 80px 20px 0 20px;
+    }
+
+    .tituloChave{
+        font-size: 80px;
+    }
+
+    .blocoIcon{
+        height: 52px;
+    }
+
+    .infoRedes{
+        gap: 20px;
+        width: 150px;
+        height: 90px;
+        
+    }
+
+    .pRedes{
+        font-size: 25px;
+        height: 90px;
+    }
+
+    #grafIdade{
+        height: 250px;
+    }
+    
+    #graf3{
+        width: 85%;
+    }
+
+    #alinharBlocos2{
+        gap: 60px;
+    }
+
+    #graf2{
+        height: 250px;
+        width: 250px;
+    }
+
+    #grafico1{
+        height: 210px;
+    }
+
+    #graf1{
+        height: 230px;
+        width: 230px;
+    }
+    
+    #graf1T{
+        font-size: 18px;
+    }
+
+    #graf1 > ul{
+        padding-top: 30px;
+        padding-left: 90px;
+    }
+
+    #fimT1{
+        font-size: 37px;
+    }
+
+    #fimT2{
+        font-size: 34px;
+    }
+
+    #fundo{
+        height: 380px;
+        width: 380px;
+        margin-bottom: 440px;
+    }
+    
+    #fotoFundo{
+        height: 320px;
+    }
+
+    #titulo{
+        padding-bottom: 10px;
+    }
+
+    #textoFim{
+        font-size: 20px;
+    }
+
+    .temas{
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    header > nav{
+        display: none;
+    }
+
+    header{
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        padding: 20px;
+    }
+
+    #headLogo{
+        height: 110px;
+    }
+    
+}
+
+@media screen and (max-width: 698px){
+
+    #mainP1, #mainP2, #mainP3{
+        font-size: 15px;
+    }
+
+    #mainP1{
+        margin-top: 300px;
+    }
+
+    #titulo{
+        font-size: 60px;
+    }
+
+    #fundo{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 330px;
+    }
+
+    #fotoFundo{
+        height: 260px;
+    }
+
+    #sobreMim2{
+        padding-top: 60px;
+    }
+
+    .logos{
+        height: 41px;
+    }
+
+    #trabalhos{
+        gap: 40px;
+    }
+
+    #main2{
+        font-size: 40px;
+    }
+
+    .cardFotos{
+        height: 200px;
+    }
+
+    #cardP1, #cardP2, #cardP3{
+        font-size: 15px;
+        width: 200px;
+    }
+
+    #cardP1{
+        padding-top: 25px;
+    }
+
+    #cardP2{
+        padding-top: 45px;
+    }
+    
+    #cardP3{
+        padding-top: 30px;
+    }
+
+    .tituloChave{
+        font-size: 60px;
+        padding-top: 80px;
+    }
+
+    #publico{
+        font-size: 45px;
+    }
+
+    #grafIdade{
+        height: 230px;
+    }
+    
+    .infoRedes{
+        gap: 12px;
+        width: 105px;
+        height: 65px;
+        padding-left: 15px;
+    }
+
+    .pRedes{
+        font-size: 20px;
+    }
+
+    #alinharBlocos{
+        gap: 40px;
+        justify-content: center;
+    }
+
+    #alinharBlocos2{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 40px;
+        gap: 40px;
+    }
+
+    #graf1{
+        height: 300px;
+        width: 300px;
+    }
+
+    #graf1T{
+        font-size: 25px;
+    }
+
+    #graf1 ul{
+        padding-top: 60px;
+        padding-left: 110px;
+        font-size: 20px;
+    }
+
+    #graf2{
+        height: 300px;
+        width: 300px;
+    }
+
+    #grafico1{ 
+        padding-left: 10px;
+        height: 240px;
+    }
+
+    .blocoIcon{
+        height: 40px;
+    }
+
+    .navIcons{
+        height: 60px;
+    }
+
+    #yt{
+        height: 50px;
+    }
+
+    #fimT1{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    #fimT2{
+        font-size: 25px;
+    }
+
+    .textoFim{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    
+    #titulo{
+        font-size: 30px;
+    }
+
+    #colunaTrabalho{
+        gap: 15px;
+    }
+
+    #main2{
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    
+    #fundo{
+        height: 180px;
+        width: 180px;
+        margin-bottom: 320px;
+    }
+
+    #fotoFundo{
+        height: 150px;
+    }
+
+    #mainP1{
+        margin-top: 170px;
+    }
+
+    #mainP1, #mainP2, #mainP3{
+        font-size: 10px;
+    }
+
+    #sobreMim2{
+        margin: 10%;
+        width: 80%;
+        padding-top: 30px;
+    }
+
+    #mainP2{
+        width: auto;
+        word-wrap: break-word;
+        padding-left: 0;
+    }
+
+    #mainP3{
+        width: auto;
+        word-wrap: break-word;
+        padding-left: 0;
+    }
+
+    .logos{
+        height: 20px;
+    }
+
+    #salonLine{
+        height: 30px;
+    }
+
+    #trabalhos{
+        gap: 15px;
+    }
+
+    .tituloChave{
+        font-size: 35px;
+    }
+
+    .temas{
+        font-size: 18px;
+        width: 200px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .cardFotos{
+        height: 80px;
+    }
+
+    #cardP1, #cardP2, #cardP3{
+        font-size: 6px;
+        width: 90px;
+        padding: 2px;
+    }
+
+    #cardP1{
+        padding-top: 16px;
+    }
+
+    #cardP2{
+        padding-top: 25px;
+    }
+
+    #cardP3{
+        padding-top: 20px;
+    }
+    
+    .blocoIcon{
+        height: 15px;
+    }
+
+    .pRedes{
+        font-size: 8px;
+        width: 10px;
+    }
+
+    .infoRedes{
+        padding-left: 5px;
+        width: 46px;
+        height: 35px;
+        gap: 7px;
+    }
+
+    #alinharBlocos{
+        gap: 8%;
+    }
+
+    #grafIdade{
+        height: 100px;
+    }
+
+    #publico{
+        font-size: 25px;
+    }
+
+    #graf1{
+        height: 180px;
+        width: 200px;
+        justify-content: center;
+    }
+
+    #graf1 ul{
+        font-size: 14px;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    #graf1T{
+        font-size: 17px;
+        word-wrap: break-word;
+        width: 170px;
+    }
+
+    #graf3{
+        margin-left: 0.5%;
+    }
+
+    .navIcons{
+        height: 30px;
+        padding: 0;
+    }
+
+    #yt{
+        height: 28px;
+    }
+
+    .textoFim{
+        font-size: 10px;
+    }
+
+    #infos{
+        gap: 10px;
+    }
+
+    .icons1{
+        height: 20px;
+    }
+
+    .alinharIcon{
+        gap: 10px;
+    }
+
+    #navFim{
+        gap: 20px;
+        padding: 0;
+    }
+
+    #fimT1{
+        font-size: 20px;
+    }
+
+    #fimT2{
+        font-size: 15px;
+        padding-top: 0;
+    }
+
+    #contratoT{
+        font-size: 17px;
+        padding-top: 20px;
+    }
+
+    #colunaContrato ul{
+        font-size: 12px;
+        width: max-content;
+    }
+
+    #colunaContrato{
+        padding-top: 40px;
+        padding-left: 32px;
+    }
+
+    #contratoP{
+        padding-top: 40px;
+        font-size: 10px;
+    }
+
+    #grafico1{
+        height: 150px;
+    }
+
+    #graf1T{
+        padding: 20px 20px 20px 10px;    
+    }
+
+    #graf1 ul{
+        padding-left: 80px;
+    }
+
+    #graf2{
+        width: 200px;
+        height: 200px;
+    }
+
+    #alinharCards{
+        gap: 0px;
+    }
+
+}
